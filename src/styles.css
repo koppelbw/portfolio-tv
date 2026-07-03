@@ -499,6 +499,15 @@ h2.section {
   letter-spacing: 1px;
 }
 
+/* inline highlighted label (e.g. EDUCATION / AWARDS on Career) */
+.hl {
+  font-family: var(--font-display);
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: var(--accent);
+  text-shadow: 0 0 8px rgba(var(--accent-rgb), 0.55);
+}
+
 .link-row {
   display: flex;
   flex-wrap: wrap;

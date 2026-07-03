@@ -116,10 +116,11 @@ export default function Career() {
       </div>
 
       <p className="dim">
-        EDUCATION — B.S. Computer Science, Grand Valley State University, 2014.
+        <span className="hl">EDUCATION</span> — B.S. Computer Science, Grand Valley
+        State University, 2014.
         <br />
-        AWARDS — C# &amp; T-SQL Microsoft Exams · 2017 / 2018 / 2019 Launch Hackathon
-        prize winner.
+        <span className="hl">AWARDS</span> — C# &amp; T-SQL Microsoft Exams · 2017 /
+        2018 / 2019 Launch Hackathon prize winner.
       </p>
     </>
   )
