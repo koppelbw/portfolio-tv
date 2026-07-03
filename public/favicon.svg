@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- rabbit-ear antenna -->
+  <g stroke="#8a9096" stroke-width="4" stroke-linecap="round">
+    <line x1="32" y1="14" x2="19" y2="3" />
+    <line x1="32" y1="14" x2="45" y2="3" />
+  </g>
+  <!-- bezel -->
+  <rect x="4" y="12" width="56" height="46" rx="9" fill="#23262a" stroke="#0a0b0d" stroke-width="2" />
+  <!-- phosphor screen -->
+  <rect x="10" y="18" width="44" height="33" rx="7" fill="#4dff88" />
+  <!-- scanlines -->
+  <g fill="#0c3a1f" opacity="0.5">
+    <rect x="12" y="24" width="40" height="2" />
+    <rect x="12" y="30" width="40" height="2" />
+    <rect x="12" y="36" width="40" height="2" />
+    <rect x="12" y="42" width="40" height="2" />
+  </g>
+  <!-- power LED -->
+  <circle cx="51" cy="54.5" r="2" fill="#ff3b30" />
+</svg>
