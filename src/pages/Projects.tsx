@@ -21,7 +21,7 @@ const PROJECTS: Project[] = [
   {
     title: 'HABITAT · HOUSEVIEW UI',
     blurb:
-      'An isometric 3D “dollhouse” front end for ItemCatalogue. React + TypeScript + react-three-fiber + GSAP render your actual floors, rooms, doors, and containers with real-inch geometry — click through the house to browse and manage everything in it, with full CRUD against the API.',
+      'A Sims-style isometric 3D frontend for the ItemCatalogue API. Every location renders as a building in a neighbourhood; the active one unfolds into a dollhouse with rooms, doors, stairs, and containers modeled at real-inch scale. Includes a Claude-powered AI assistant that answers questions about your inventory and deep-links into the 3D scene, plus asynchronous bulk CSV import built on Azure Storage Queues and Functions.',
     tags: ['React', 'TypeScript', 'Three.js / R3F', 'GSAP', 'Vite'],
     links: [
       { href: 'https://purple-tree-02473b20f.7.azurestaticapps.net/', label: 'Live demo ↗' },

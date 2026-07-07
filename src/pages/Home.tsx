@@ -14,7 +14,7 @@ export default function Home() {
         <br />
         KOPPELBERGER
       </h1>
-      <p className="subtitle">Enterprise Application Engineer</p>
+      <p className="subtitle">Software Engineer</p>
 
       <p className="lede">
         I build cloud-ready enterprise software — hands-on engineering, software

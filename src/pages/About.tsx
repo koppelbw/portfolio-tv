@@ -4,7 +4,7 @@ type Hobby = {
   title: string
   photo: string
   alt: string
-  blurb: string
+  blurb: string[]
 }
 
 const HOBBIES: Hobby[] = [
@@ -12,22 +12,27 @@ const HOBBIES: Hobby[] = [
     title: 'HOCKEY',
     photo: './photos/hockey.jpg',
     alt: 'League championship team photo on the ice',
-    blurb:
-      'On the ice year-round — league champion with the trophy to prove it (yes, it involves a beer-can column). Championship rounds are a group stage; the beer league is a lifestyle.',
+    blurb: [
+      'I have been a big hockey fan my entire life — growing up in the Detroit area, my family are big Red Wings fans.',
+      'I only began playing ice hockey about five years ago, as an adult. It was intimidating at first and a large commitment, but after taking the leap I couldn’t be happier with my decision to start playing.',
+    ],
   },
   {
     title: 'ROCKET LEAGUE',
     photo: './photos/rocket-league.jpg',
     alt: 'Rocket League artwork — rocket-powered cars launching off clouds toward a giant ball and moon',
-    blurb:
-      'When the rink is closed, hockey continues — with rocket-powered cars. Aerials, demos, and the eternal chase of one more rank.',
+    blurb: [
+      'When the rink is closed, I’m playing car-soccer. Whether it’s playing with friends all Saturday night or competing against the professionals for money, it’s always a great time.',
+    ],
   },
   {
     title: 'ART',
     photo: './photos/art.jpg',
     alt: 'Stained glass windows of Sainte-Chapelle',
-    blurb:
-      'Museums, cathedrals, stained glass, textiles — I chase good craftsmanship wherever it lives. Sainte-Chapelle in person is the best render I have ever seen.',
+    blurb: [
+      'Anywhere I travel, you will find me at the museums.',
+      'When I see a marble sculpture I always think of my previous boss and friend Peter, who would often tell us: “Building software is like building a sculpture. You chisel away a rough outline, then refine and repeat.”',
+    ],
   },
 ]
 
@@ -56,7 +61,11 @@ export default function About() {
           <div className="panel" key={h.title}>
             <PhotoSlot hobby={h} />
             <h3>{h.title}</h3>
-            <p className="dim">{h.blurb}</p>
+            {h.blurb.map((para) => (
+              <p className="dim" key={para}>
+                {para}
+              </p>
+            ))}
           </div>
         ))}
       </div>
