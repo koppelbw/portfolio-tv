@@ -16,7 +16,10 @@ const PROJECTS: Project[] = [
     blurb:
       'Home-inventory platform built on ASP.NET Core 10 with a five-project Clean/Hexagonal architecture. EF Core + SQL Server (SSDT dacpac with schema-drift gates), Azure Blob picture storage, OpenTelemetry observability, ~400 xUnit v3 tests with Testcontainers, and GitHub Actions CI/CD deploying to Azure.',
     tags: ['.NET 10', 'EF Core', 'SQL Server', 'Azure', 'xUnit v3', 'CI/CD', 'Agentic AI'],
-    links: [{ href: 'https://github.com/koppelbw/ItemCatalogue', label: 'View source ↗' }],
+    links: [
+      { href: 'https://github.com/koppelbw/ItemCatalogue', label: 'View source ↗' },
+      { href: 'https://habitat.williamkoppelberger.dev/#/about', label: 'About ↗' },
+    ],
   },
   {
     title: 'HABITAT · HOUSEVIEW UI',
@@ -24,7 +27,7 @@ const PROJECTS: Project[] = [
       'A Sims-style isometric 3D frontend for the ItemCatalogue API. Every location renders as a building in a neighbourhood; the active one unfolds into a dollhouse with rooms, doors, stairs, and containers modeled at real-inch scale. Includes a Claude-powered AI assistant that answers questions about your inventory and deep-links into the 3D scene, plus asynchronous bulk CSV import built on Azure Storage Queues and Functions.',
     tags: ['React', 'TypeScript', 'Three.js / R3F', 'GSAP', 'Vite', 'Agentic AI'],
     links: [
-      { href: 'https://purple-tree-02473b20f.7.azurestaticapps.net/', label: 'Live demo ↗' },
+      { href: 'https://habitat.williamkoppelberger.dev', label: 'Live demo ↗' },
       { href: 'https://github.com/koppelbw/ItemCatalogue/tree/master/houseview', label: 'View source ↗' },
     ],
   },
