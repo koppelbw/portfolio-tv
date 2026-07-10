@@ -8,81 +8,77 @@ type Job = {
 
 const JOBS: Job[] = [
   {
-    years: '2023 — 2026',
+    years: '2023 — Present',
     title: 'HCA Healthcare · Dispute Resolution Workflow',
     role: 'Digital Engineering Supervisor',
-    feed: '.NET 9 / MVC / EF Core / SQL / GitHub / Azure / CI-CD / IaC / Copilot',
+    feed: '.NET 9 / ASP.NET MVC / EF Core / SQL Server / Azure / GitHub / Terraform / GitHub Copilot',
     points: [
-      'Mentor and lead to a large Agile team of 12 engineers',
-      'Oversight of code quality and performance across the platform',
-      'Led major refactoring and code structure improvements',
-      'Managed migration from on-prem to cloud hosting and resources',
-      'AI-driven engineering environment',
-      'Modernized a high-profile process handling billions of dollars each year',
+      'Lead and mentor a 12-engineer Agile team modernizing a dispute-resolution platform that processes billions of dollars in healthcare claims annually',
+      'Directed the platform’s migration from on-prem hosting to Azure using Terraform IaC and automated CI/CD pipelines — zero downtime for production users',
+      'Led a major refactoring and code-structure overhaul that increased unit test coverage by 20%',
+      'Drove team-wide adoption of GitHub Copilot and AI-assisted code review, reducing average PR review times by 50%',
+      'Remain hands-on: guided and implemented a batch-processing subsystem handling hundreds of thousands of data entries per day in .NET 9 and EF Core',
     ],
   },
   {
     years: '2023',
-    title: 'HCA Healthcare · No Surprise Act',
+    title: 'HCA Healthcare · No Surprises Act Compliance',
     role: 'Digital Engineering Team Lead',
-    feed: '.NET 5 / MVC / EF Core / SQL / GitHub',
+    feed: '.NET 5 / ASP.NET MVC / EF Core / SQL Server / GitHub',
     points: [
-      'Technical lead to an Agile team of 5–8 engineers',
-      'CI/CD and on-prem hosting oversight',
-      'Expanded an existing .NET application on an accelerated timeline',
+      'Technical lead for a team of 5–8 engineers delivering federally mandated No Surprises Act functionality on an accelerated 6-month timeline — shipped on schedule',
+      'Designed and led the expansion of the existing .NET application, personally implementing the bulk-import process',
+      'Owned CI/CD pipelines and on-prem hosting, maintaining a monthly UAT release cadence throughout the compressed delivery window',
     ],
   },
   {
     years: '2021 — 2023',
     title: 'HCA Healthcare · CDRA / ROSI',
     role: 'Sr. Software Developer II',
-    feed: '.NET 6 / Blazor / EF Core / SQL / GitHub / Azure',
+    feed: '.NET 6 / Blazor / EF Core / SQL Server / Azure / GitHub',
     points: [
-      '“Platform of the Year” — Launch, by NTT DATA, Awards Celebration',
-      'Mentored and became lead of the Agile team',
-      'Took the team through adopting a new technology: Blazor',
-      'Implemented domain-centric architecture and CQRS via MediatR',
-      'Azure cloud hosting oversight',
+      'Technical lead of the platform awarded “Platform of the Year” at Launch, by NTT DATA’s annual awards',
+      'Led the team’s adoption of Blazor from zero prior experience, ramping 6–8 engineers to full productivity in 3 months',
+      'Architected the platform using domain-centric architecture and CQRS via MediatR, improving testability and separation of concerns',
+      'Promoted from senior contributor to team lead mid-engagement; owned Azure cloud hosting and deployments',
     ],
   },
   {
     years: '2020 — 2021',
     title: 'HCA Healthcare · Denial Escalation Workflow',
     role: 'Sr. Software Developer I',
-    feed: '.NET Core 3.0 / MVC / EF Core / SQL / JavaScript / jQuery / TFS',
+    feed: '.NET Core 3.0 / ASP.NET MVC / EF Core / SQL Server / JavaScript / jQuery / TFS',
     points: [
-      'Full-stack technical contributor',
-      'Designed and implemented a bulk data intake system',
-      'Partnered with UI/UX designers on a challenging adaptation of an existing business process',
+      'Designed and implemented a bulk data intake system handling thousands of records at once, replacing a manual workflow',
+      'Partnered with UI/UX designers to translate a complex, long-standing manual business process into an intuitive web workflow',
     ],
   },
   {
     years: '2018 — 2020',
     title: 'HCA Healthcare · Price Transparency Web App & API',
     role: 'Sr. Software Developer I',
-    feed: '.NET Core 2.0 / REST API / MVC / EF Core / SQL / TFS',
+    feed: '.NET Core 2.0 / REST API / ASP.NET MVC / EF Core / SQL Server / TFS',
     points: [
-      'Full-stack technical contributor',
-      'Production deployment and support responsibilities',
-      'Delivered a high-profile, time-critical solution to top business leadership',
+      'Built and delivered an executive-priority price transparency application and public REST API under a government-mandated deadline, frequently presented to top business leadership',
+      'Owned production deployment and post-launch support end to end',
     ],
   },
   {
     years: '2016 — 2018',
     title: 'HCA Healthcare · Charge Master',
     role: 'Software Developer I',
-    feed: '.NET Framework / MVC / EF / SQL / JavaScript / jQuery',
+    feed: '.NET Framework / ASP.NET MVC / Entity Framework / SQL Server / JavaScript / jQuery',
     points: [
-      'Front-end and back-end technical contributor',
-      'Designed and implemented a bulk data intake system',
+      'Full-stack contributor; implemented complex frontend and backend features',
+      'Designed a bulk data intake system that automated processing changes to medical procedures in a legacy system',
     ],
   },
   {
     years: '2015 — 2016',
-    title: 'Johnson & Johnson · Health and Wellness Solutions',
+    title: 'Johnson & Johnson · Health & Wellness Solutions',
     role: 'Jr. Developer',
-    feed: 'Java / Log4J / JavaScript / HTML / CSS',
-    points: ['Implemented security enhancements in a challenging legacy system'],
+    feed: 'Java / Log4j / JavaScript / HTML / CSS',
+    points: ['Implemented security enhancements to a complex legacy Java system'],
   },
 ]
 
@@ -93,10 +89,10 @@ export default function Career() {
       <h2 className="section">CAREER</h2>
       <p className="subtitle">Launch, by NTT DATA · 2015 — Present</p>
       <p className="lede">
-        Launch, a division within NTT DATA, specializes in digital innovation,
-        design, and engineering for Fortune 500 companies. My decade there has
-        centered on the healthcare sector — shipping high-quality software with
-        the teams below.
+        Launch, by NTT DATA, is a digital engineering consultancy delivering
+        products for Fortune 500 clients. My 11 years there have been embedded
+        long-term with HCA Healthcare — one of the largest U.S. health systems —
+        across six major platform engagements.
       </p>
 
       <div>
@@ -118,9 +114,6 @@ export default function Career() {
       <p className="dim">
         <span className="hl">EDUCATION</span> — B.S. Computer Science, Grand Valley
         State University, 2014.
-        <br />
-        <span className="hl">AWARDS</span> — C# &amp; T-SQL Microsoft Exams · 2017 /
-        2018 / 2019 Launch Hackathon prize winner.
       </p>
     </>
   )

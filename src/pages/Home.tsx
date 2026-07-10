@@ -17,15 +17,14 @@ export default function Home() {
       <p className="subtitle">Software Engineer</p>
 
       <p className="lede">
-        I build cloud-ready enterprise software — hands-on engineering, software
-        architecture, and AI-assisted development workflows that accelerate delivery
-        and raise code quality. A decade in the healthcare sector shipping
-        high-stakes systems, from REST APIs to full-stack modernizations.
+        Hands-on full-stack engineer and technical lead — 11 years designing,
+        building, and shipping .NET/Azure platforms for the healthcare industry,
+        including systems processing billions of dollars in transactions annually.
       </p>
 
       <div className="stat-strip">
         <span>
-          <b>10+</b> years engineering
+          <b>11</b> years engineering
         </span>
         <span>
           <b>12</b> engineers led &amp; mentored
@@ -40,24 +39,24 @@ export default function Home() {
 
       <div className="grid cols-3">
         <div className="panel">
-          <h3>TECH LEAD</h3>
+          <h3>CLOUD MIGRATION, ZERO DOWNTIME</h3>
           <p className="dim">
-            Technical Lead of the project awarded “Platform of the Year” at Launch,
-            by NTT DATA.
+            Directed a platform’s on-prem-to-Azure migration with Terraform IaC and
+            automated CI/CD — zero downtime for production users.
           </p>
         </div>
         <div className="panel">
-          <h3>DELIVERY UNDER PRESSURE</h3>
+          <h3>AI-DRIVEN SDLC</h3>
           <p className="dim">
-            Delivered a high-profile, time-critical solution to top business
-            leadership as the full-stack technical engineer.
+            Drove team-wide adoption of GitHub Copilot and AI-assisted code review —
+            PR review times down 50%, unit test coverage up 20%.
           </p>
         </div>
         <div className="panel">
-          <h3>MENTOR &amp; MODERNIZER</h3>
+          <h3>“PLATFORM OF THE YEAR”</h3>
           <p className="dim">
-            Mentor and lead to a large Agile team modernizing a process handling
-            billions of dollars every year.
+            Technical lead of the platform awarded Platform of the Year at Launch,
+            by NTT DATA — while leading and mentoring a 12-engineer Agile team.
           </p>
         </div>
       </div>
