@@ -8,16 +8,16 @@ type Job = {
 
 const JOBS: Job[] = [
   {
-    years: '2023 — Present',
+    years: '2023 — 2026',
     title: 'HCA Healthcare · Dispute Resolution Workflow',
     role: 'Digital Engineering Supervisor',
     feed: '.NET 9 / ASP.NET MVC / EF Core / SQL Server / Azure / GitHub / Terraform / GitHub Copilot',
     points: [
-      'Lead and mentor a 12-engineer Agile team modernizing a dispute-resolution platform that processes billions of dollars in healthcare claims annually',
-      'Directed the platform’s migration from on-prem hosting to Azure using Terraform IaC and automated CI/CD pipelines — zero downtime for production users',
+      'Lead and mentor to a 12-engineer Agile team modernizing a dispute-resolution platform that processes billions of dollars in healthcare claims annually',
+      'Directed the platform’s migration from on-prem hosting to Azure using Terraform IaC and automated CI/CD pipelines with zero downtime to production end users',
       'Led a major refactoring and code-structure overhaul that increased unit test coverage by 20%',
-      'Drove team-wide adoption of GitHub Copilot and AI-assisted code review, reducing average PR review times by 50%',
-      'Remain hands-on: guided and implemented a batch-processing subsystem handling hundreds of thousands of data entries per day in .NET 9 and EF Core',
+      'Drove team-wide adoption of GitHub Copilot and AI-assisted code review, reducing average PR review times by 50% and establishing higher code quality standards',
+      'Remain hands-on: led and implemented a batch-processing subsystem handling hundreds of thousands of data entries per day in .NET 9 and EF Core while owning code quality and performance standards',
     ],
   },
   {
@@ -26,7 +26,7 @@ const JOBS: Job[] = [
     role: 'Digital Engineering Team Lead',
     feed: '.NET 5 / ASP.NET MVC / EF Core / SQL Server / GitHub',
     points: [
-      'Technical lead for a team of 5–8 engineers delivering federally mandated No Surprises Act functionality on an accelerated 6-month timeline — shipped on schedule',
+      'Technical lead for a team of 5-8 engineers delivering federally mandated No Surprises Act functionality on an accelerated 6-month timeline; shipped on schedule',
       'Designed and led the expansion of the existing .NET application, personally implementing the bulk-import process',
       'Owned CI/CD pipelines and on-prem hosting, maintaining a monthly UAT release cadence throughout the compressed delivery window',
     ],
@@ -37,8 +37,8 @@ const JOBS: Job[] = [
     role: 'Sr. Software Developer II',
     feed: '.NET 6 / Blazor / EF Core / SQL Server / Azure / GitHub',
     points: [
-      'Technical lead of the platform awarded “Platform of the Year” at Launch, by NTT DATA’s annual awards',
-      'Led the team’s adoption of Blazor from zero prior experience, ramping 6–8 engineers to full productivity in 3 months',
+      'Technical lead of the platform awarded “Platform of the Year” at Launch’s annual awards celebration',
+      'Led the team’s adoption of Blazor from zero prior experience, ramping 6-8 engineers to full productivity in 3 months',
       'Architected the platform using domain-centric architecture and CQRS via MediatR, improving testability and separation of concerns',
       'Promoted from senior contributor to team lead mid-engagement; owned Azure cloud hosting and deployments',
     ],
@@ -70,7 +70,7 @@ const JOBS: Job[] = [
     feed: '.NET Framework / ASP.NET MVC / Entity Framework / SQL Server / JavaScript / jQuery',
     points: [
       'Full-stack contributor; implemented complex frontend and backend features',
-      'Designed a bulk data intake system that automated processing changes to medical procedures in a legacy system',
+      'Designed a bulk data intake system that automated a legacy process for updating medical procedures',
     ],
   },
   {
@@ -89,10 +89,9 @@ export default function Career() {
       <h2 className="section">CAREER</h2>
       <p className="subtitle">Launch, by NTT DATA · 2015 — Present</p>
       <p className="lede">
-        Launch, by NTT DATA, is a digital engineering consultancy delivering
-        products for Fortune 500 clients. My 11 years there have been embedded
-        long-term with HCA Healthcare — one of the largest U.S. health systems —
-        across six major platform engagements.
+        Digital engineering consultancy delivering products for Fortune 500
+        clients. Embedded long-term with HCA Healthcare, one of the largest U.S.
+        health systems, across six major platform engagements.
       </p>
 
       <div>
